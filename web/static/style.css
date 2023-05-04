@@ -1,0 +1,76 @@
+body {
+  font-family: "Lucida Handwriting", cursive, sans-serif;
+  background-color: #f7d16a;
+  color: #333;
+}
+
+
+
+h1, h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 3em;
+  color: #7e5109;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 50px;
+  color: #7e5109;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+label {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 2px solid #7e5109;
+  border-radius: 5px;
+  font-size: 1.2em;
+  width: 400px;
+}
+
+input[type="submit"] {
+  background-color: #7e5109;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  
+  font-family: "Lucida Handwriting", cursive, sans-serif;
+
+}
+
+input[type="submit"]:hover {
+  background-color: #b48904;
+
+
+
+}
+
+ul {
+  text-align: center;
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+li {
+  font-family:'Noto Sans Arabic';
+  font-size: 24px;
+  color: black;
+}
