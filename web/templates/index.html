@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Arabic Name Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="{{ css_url }}">
+  </head>
+  <body>
+    <h1>Arabic Name Generator</h1>
+    <form method="POST" action="/generate_names">
+      <label for="seed_text">Enter a seed text:</label>
+      <input type="text" id="seed_text" name="seed_text" placeholder="type a seed text...">
+      <br><br>
+      <input type="submit" value="Generate Names">
+    </form>
+    <br><br>
+    {% if names %}
+      <h2>Generated Names:</h2>
+      <ul>
+        {% for name in names %}
+          <li>{{ name }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </body>
+</html>
