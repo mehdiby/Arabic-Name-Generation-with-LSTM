@@ -14,3 +14,15 @@ To use this project, you can clone the repository and run the name_generation.ip
 - Python 3.6 or higher
 - Keras 2.2.4 or higher
 - NumPy 1.14.3 or higher
+
+## Web
+
+To deploy the model, we used Flask and ngrok. Flask is a lightweight web application framework for Python, and ngrok is a tool that allows us to expose a local web server to the internet. 
+
+To see the app in action, check out this GIF:
+
+![App Demo](my-gif.gif)
+
+To run the app locally, you can run the notebook in the web folder and remember to put your own ngrok aith token
+
+Enjoy!
